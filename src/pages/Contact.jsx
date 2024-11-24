@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import emailjs from 'emailjs-com';
-import './Contact.css';
+
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -50,7 +51,8 @@ function Contact() {
     });
   };
 
-  return (
+return (
+  <div>
     <section id="contact" className="contact">
       <h1>Contact Me</h1>
       <p>I'd love to hear from you! Fill out the form below to get in touch.</p>
@@ -99,7 +101,11 @@ function Contact() {
 
       {formStatus && <p className="form-status">{formStatus}</p>}
     </section>
-  );
+    <footer>
+      <Link to="/">Go back to Home</Link>
+    </footer>
+  </div>
+);
 }
 
 export default Contact;
