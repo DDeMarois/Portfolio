@@ -11,12 +11,10 @@ function Portfolio() {
             </p>
             <ul>
                 <li>
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
+                    <a href="https://github.com/DDeMarois/Employee-Tracker"></a>
+                    <a href="https://github.com/DDeMarois/Vehicle-Builder"></a>
+                    <a href="https://github.com/DDeMarois/README-Generator"></a>
+                    <a href="https://github.com/Kristy-H-Thompson/Trip-Mosaic"></a>
                 </li>
             </ul>
         </div>
