@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Project from "../components/Project";
 
 function Portfolio() { 
     return (
@@ -9,14 +10,7 @@ function Portfolio() {
             <p>
                 Here are some of the projects I have worked on:
             </p>
-            <ul>
-                <li>
-                    <a href="https://github.com/DDeMarois/Employee-Tracker"></a>
-                    <a href="https://github.com/DDeMarois/Vehicle-Builder"></a>
-                    <a href="https://github.com/DDeMarois/README-Generator"></a>
-                    <a href="https://github.com/Kristy-H-Thompson/Trip-Mosaic"></a>
-                </li>
-            </ul>
+            <Project />
         </div>
         <footer>
             <Link to="/">Go back to Home</Link>

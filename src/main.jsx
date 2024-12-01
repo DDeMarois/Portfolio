@@ -6,13 +6,12 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
-import './App.css';
 import './Nav.css';
 import './Contact.css';
-import './Home.css';
 import './Portfolio.css';
 import './Resume.css';
 import './About.css';
+import './App.css';
 
 const router = createBrowserRouter([
     {

@@ -1,16 +1,8 @@
-/* Portfolio.css */
-
-/* General Styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
+/* Bootstrap Overrides */
 
 /* Header Styles */
 header {
-    background-color: #333;
+    background-color: #343a40;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
@@ -22,7 +14,7 @@ header h1 {
 
 /* Navigation Styles */
 nav {
-    background-color: #444;
+    background-color: #495057;
     overflow: hidden;
 }
 
@@ -36,7 +28,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #ddd;
+    background-color: #ced4da;
     color: black;
 }
 
@@ -47,7 +39,7 @@ main {
 
 /* Footer Styles */
 footer {
-    background-color: #333;
+    background-color: #343a40;
     color: #fff;
     text-align: center;
     padding: 1rem 0;
