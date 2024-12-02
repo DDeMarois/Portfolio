@@ -1,11 +1,14 @@
-export default function ProjectLinks({ name, githubUrl, imageUrl }) {
+export default function ProjectLinks({ name, githubUrl, imageUrl, deployedUrl }) {
     return (
-        <div class="portfolio-container">
-            <p class="portfolio-content">{`${name}`}</p>
-            <img class="portfolio-image" src={imageUrl} alt={`${name} project`} />
-            <div>
+        <div className="portfolio-container">
+            <p className="portfolio-content">{`${name}`}</p>
+            <img className="portfolio-image" src={imageUrl} alt={`${name} project`} />
+            <div className="portfolio-links">
                 <a href={githubUrl} target="_blank" rel="noreferrer">
                     GitHub
+                </a>
+                <a href={deployedUrl} target="_blank" rel="noreferrer">
+                    Deployed Application
                 </a>
             </div>
         </div>

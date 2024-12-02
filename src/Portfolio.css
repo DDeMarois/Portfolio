@@ -50,3 +50,12 @@
 .portfolio-container:hover {
     transform: scale(1.02);
 }
+.portfolio-links a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #3498db; /* Link color */
+}
+
+.portfolio-links a:last-child {
+    margin-right: 0;
+}
