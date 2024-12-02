@@ -1,9 +1,8 @@
-export default function ProjectLinks({ name, url, githubUrl, imageUrl }) {
+export default function ProjectLinks({ name, githubUrl, imageUrl }) {
     return (
-        <div>
-            <a href={url} target="_blank" rel="noreferrer">
-                <img src={imageUrl} alt={`${name} project`} />
-            </a>
+        <div class="portfolio-container">
+            <p class="portfolio-content">{`${name}`}</p>
+            <img class="portfolio-image" src={imageUrl} alt={`${name} project`} />
             <div>
                 <a href={githubUrl} target="_blank" rel="noreferrer">
                     GitHub

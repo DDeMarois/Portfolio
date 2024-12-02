@@ -1,49 +1,52 @@
-/* Bootstrap Overrides */
-
-/* Header Styles */
-header {
-    background-color: #343a40;
-    color: #fff;
-    padding: 1rem 0;
+.portfolio-header {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    margin-bottom: 20px;
     text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #f0f0f0; /* Light grey background */
+    color: #2c3e50; /* Darker blue for better contrast */
 }
 
-header h1 {
-    margin: 0;
+.portfolio-content {
+    font-family: 'Georgia', serif;
+    font-size: 20px;
+    line-height: 1.8;
+    color: #333; /* Darker for better readability */
+    text-align: justify;
+    margin-bottom: 20px;
 }
 
-/* Navigation Styles */
-nav {
-    background-color: #495057;
-    overflow: hidden;
-}
-
-nav a {
-    float: left;
+.portfolio-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-right: 20px;
+    width: 200px;
+    height: 200px;
     display: block;
-    color: #fff;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-right: auto;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
 
-nav a:hover {
-    background-color: #ced4da;
-    color: black;
+.portfolio-container {
+    background-color: #f0f0f0; /* Light grey background */
+    padding: 30px;
+    max-width: 800px;
+    margin: 20px auto;
+    border: 1px solid #dcdcdc;
+    border-radius: 0.5rem;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
 }
 
-/* Main Content Styles */
-main {
-    padding: 20px;
-}
-
-/* Footer Styles */
-footer {
-    background-color: #343a40;
-    color: #fff;
-    text-align: center;
-    padding: 1rem 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+.portfolio-container:hover {
+    transform: scale(1.02);
 }

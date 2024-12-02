@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom';
 import Navbar from './UI/Navbar';
 import React from 'react';
 
-
 export default function Nav() {
     return (
         <Navbar
@@ -13,11 +12,11 @@ export default function Nav() {
             <Link key={2} to="/portfolio">
                     Portfolio
                 </Link>,
-            <Link key={3} to="/contact">
-                Contact
-            </Link>,
-            <Link key={4} to="/resume">
+            <Link key={3} to="/resume">
                 Resume
+            </Link>,
+            <Link key={4} to="/contact">
+                Contact
             </Link>,
         ]}
         />

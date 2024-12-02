@@ -1,15 +1,16 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
-function Resume() {
+export default function Resume() {
   return (
-<div>
-  <h1>Resume</h1>
-  <footer>
-    <Link to="/">Go back to Home</Link>
-  </footer>
-</div>
+    <React.Fragment>
+      <div className='resume-container'>
+        <header className='resume-header'>Resume</header>
+        <p className='resume-content'>
+          Please click the link below to view my resume:
+        </p>
+      </div>
+    </React.Fragment>
   );
 }
 
-export default Resume;
+

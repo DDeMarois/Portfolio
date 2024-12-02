@@ -12,6 +12,7 @@ import './Portfolio.css';
 import './Resume.css';
 import './About.css';
 import './App.css';
+import './Footer.css';
 
 const router = createBrowserRouter([
     {

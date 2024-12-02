@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import emailjs from 'emailjs-com';
 
 
@@ -101,9 +100,6 @@ return (
 
       {formStatus && <p className="form-status">{formStatus}</p>}
     </section>
-    <footer>
-      <Link to="/">Go back to Home</Link>
-    </footer>
   </div>
 );
 }

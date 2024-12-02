@@ -1,22 +1,16 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Project from "../components/Project";
 
-function Portfolio() { 
+export default function Portfolio() { 
     return (
-    <>
-        <div>
-            <h1>Portfolio</h1>
-            <p>
-                Here are some of the projects I have worked on:
+        <React.Fragment>
+        <div className="portfolio-container">
+            <header className="portfolio-header">Portfolio</header>
+            <p className="portfolio-content">
+                Here are some of the projects I've worked on. Click on the links to view the deployed applications and the GitHub repositories.
             </p>
             <Project />
         </div>
-        <footer>
-            <Link to="/">Go back to Home</Link>
-        </footer>
-    </>
+        </React.Fragment>
     );
 }
-
-export default Portfolio;
