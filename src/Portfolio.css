@@ -59,3 +59,8 @@
 .portfolio-links a:last-child {
     margin-right: 0;
 }
+
+.portfolio-links a:hover {
+    color: #2c3e50; /* Darker blue on hover */
+    text-decoration: underline;
+}

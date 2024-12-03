@@ -10,24 +10,12 @@
 }
 
 .resume-content {
-    font-family: 'Georgia', serif;
-    font-size: 18px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 20px;
     line-height: 1.8;
     color: #333; /* Darker for better readability */
     text-align: justify;
     margin-bottom: 20px;
-}
-
-.resume-image {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    margin-bottom: 20px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border: 3px solid #3498db; /* Matching the header color */
 }
 
 .resume-container {
@@ -43,4 +31,18 @@
 
 .resume-container:hover {
     transform: scale(1.02);
+}
+.resume-link {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: #3498db; /* Link color */
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+    transition: color 0.3s ease-in-out;
+}
+
+.resume-link:hover {
+    color: #2c3e50; /* Darker blue on hover */
+    text-decoration: underline;
 }

@@ -1,4 +1,4 @@
-export default function ProjectLinks({ name, githubUrl, imageUrl, deployedUrl }) {
+export default function ProjectLinks({ name, githubUrl, imageUrl, videoUrl }) {
     return (
         <div className="portfolio-container">
             <p className="portfolio-content">{`${name}`}</p>
@@ -7,8 +7,8 @@ export default function ProjectLinks({ name, githubUrl, imageUrl, deployedUrl })
                 <a href={githubUrl} target="_blank" rel="noreferrer">
                     GitHub
                 </a>
-                <a href={deployedUrl} target="_blank" rel="noreferrer">
-                    Deployed Application
+                <a href={videoUrl} target="_blank" rel="noreferrer">
+                    Video Demo/Deployed Website
                 </a>
             </div>
         </div>

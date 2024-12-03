@@ -8,6 +8,15 @@ export default function Resume() {
         <p className='resume-content'>
           Please click the link below to view my resume:
         </p>
+        <a
+          className='resume-link'
+          href="/Resume.pdf"
+          download="Resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Download Resume
+        </a>
       </div>
     </React.Fragment>
   );
