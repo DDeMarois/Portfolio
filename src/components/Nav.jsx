@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import Navbar from './UI/Navbar';
-import React from 'react';
 
 export default function Nav() {
     return (
