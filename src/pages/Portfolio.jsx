@@ -7,7 +7,7 @@ export default function Portfolio() {
         <div className="portfolio-container">
             <header className="portfolio-header">Portfolio</header>
             <p className="portfolio-content">
-                Here are some of the projects I've worked on. Click on the links to view the deployed applications and the GitHub repositories.
+                Here are some of the projects I have worked on. Click on the links to view the deployed applications and the GitHub repositories.
             </p>
             <Project />
         </div>
