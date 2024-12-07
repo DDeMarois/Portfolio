@@ -1,15 +1,14 @@
-import React from 'react';
 import Nav from './components/Nav';
 import { Outlet } from 'react-router-dom';
-import Footer from './components/footer';
+import Footer from './components/Footer';
 
 
 function App() {
   return (
     <>
       <Nav />
-      <Footer />
       <Outlet />
+      <Footer />
     </>
   );
 }
